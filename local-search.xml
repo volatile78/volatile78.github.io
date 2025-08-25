@@ -4,6 +4,25 @@
   
   
   <entry>
+    <title>福利这一块（其实是文章密码测试）</title>
+    <link href="/2025/08/25/%E6%B5%8B%E8%AF%95%E5%AF%86%E7%A0%81/"/>
+    <url>/2025/08/25/%E6%B5%8B%E8%AF%95%E5%AF%86%E7%A0%81/</url>
+    
+    <content type="html"><![CDATA[<div class="hbe hbe-container" id="hexo-blog-encrypt" data-wpm="Oh, this is an invalid password. Check and try again, please." data-whm="OOPS, these decrypted content may changed, but you can still have a look.">  <script id="hbeData" type="hbeData" data-hmacdigest="31945c60e43b55cb876090fd9e01691b69d8d7f3f9f7ebadb10887aba0a548d8">bd25ed9264b080267271e137e33d0ce1c68d364b68d1dc3991ff88237b3639018eb52ba8fda9e127b576970d26be635dbfb140841093246c555338829241be443a2f31f163b8b6663f09f0de0ce69dbd5648c92cd6c5e5ff118a87d8292ce7af07129b274d8730e17d999c9808a27de4e7807d9ff354b02d43c189e61f6e622c7dc1b2e94e3c1b57f59270bd566aa472b69dd62709d69157c13eb3ba9f64f16fbca99f8e6c654e791a61a15f0d4e936bba7774dbd81fcc14b077e18eb32e03f99776a1c4a4adca8a8ecd5453e7f026f33a132b908654fa909edafc48f3770d7e3c591796bb87ec03657ab9bc9509bf072c8f49b9577c57fa173740355319b26141a143b0c4d521c57926607e5be7bbf8c76c0df1854be8444e617c4b954b90fd0c1114ce1d836da7a76544fe5e1cfd429ccdcd9e3f9e39dc753bf965fc3663c7ae89cfea45540ba85fc7b674874b7c76ef38ee842be0f37435004fb9ba2879ea4a631d8ac9a4c5ecd8d9604392b86d2d2d830d6367e1f9e1312fa7f34293abb05ee38ac0e5e30933ac0619243bf28e7a532738a27466600c1ca7eaaa8d5e65f0c7702e6234c73675f16256edd68be9b092ea19b2571cd9ec15754b4f3aae600f589ee09a396d0c7be50cb38cc58c66a23b6601b0f38c0334fd259eac655adc895fa3b0bdf511dbcb5a547b07e159aa2e948490cfd54f4849f524f65b0cc9b9843667a93f913b6458c71c3e923dd7656ae5c77ea16537dc5e813c201afa9dc0e5811beda07a920c608548b65fbe731329f3db98d521d8a154c2df24cd18ab81f8e96ed8fea9e92a877eef2205bf10a3f0dd0245fed10b61e24dbe902cd2b0e37f70b9df6d9e70b1b7c12aada9e52a05039fb3daeafc3bdf201802e09c83f8b9289d7c4cc200154332b3ecbc1887c5db1c84e5ec31a4005c1ad6a4ec9e5a74514e1acb0bb2460551f2cfbacbdb2088f1450b98828dae32d26ef8517b77bbeb7779d88042978461f058f4e7244c74fdebb748ef377a59f9ec71460646ceb12d8e8d75d1f2fcf35433ead9dd106ecf1bedd55558b0a275a485746fd4945ed6bb7bc949fe7faa78c71d98f9b3f23bf42ab2b0c5f95b404c3793d74f22e09059a6e08e9204e328d4abc5efa2120acce3d5f2ea590c3dc517b1af507f44a93afa1ee3bb7fdf09943800c54de54c2477a9960f611fa61e1684fdc347f4a422d6fd16c07d285eff33567ece1bfde464691b1ac7acf8f559d33a570953d23d331a9aa3d6ed68f9b019f12f8be364e6782806ef66ab9dd8d46a0a7f38329a19719f8fd26b1d0ae936a1983634b0449e7c4f3c0a01f6d7c86152f15f4fe2cbd9b26e9ec09d943e8e5bfceb1b05449ba01f854a3022fcea0fdb969ae6014a6677a35ffc5c7cab48f5b8c0243dd0ac7ac6f314c9398e20879c79780b443c6b1dfc69a7da876669705be61484604529eeebf6a0aaf799123a0ee9b74b89e142d6c60efe7e27e517</script>  <div class="hbe hbe-content">    <div class="hbe hbe-input hbe-input-default">      <input class="hbe hbe-input-field hbe-input-field-default" type="password" id="hbePass">      <label class="hbe hbe-input-label hbe-input-label-default" for="hbePass">        <span class="hbe hbe-input-label-content hbe-input-label-content-default">Hey, password is required here.</span>      </label>    </div>  </div></div><script data-pjax src="/lib/hbe.js"></script><link href="/css/hbe.style.css" rel="stylesheet" type="text/css">]]></content>
+    
+    
+    
+    <tags>
+      
+      <tag>实验室</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>如何有一个hexo博客</title>
     <link href="/2025/07/28/blog/"/>
     <url>/2025/07/28/blog/</url>
