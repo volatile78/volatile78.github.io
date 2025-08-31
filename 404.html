@@ -1,4 +1,26 @@
 
+    <script type="text/javascript">
+      (function () {
+        const now = new Date();
+        const days = ["04-04"];
+
+        days.forEach(day => {
+          let dayStr = day.replace(/-/g, '/');
+          if (!/^\d{4}\/\d{1,2}\/\d{1,2}$/.test(dayStr)) {
+            dayStr = `${now.getFullYear()}/${dayStr}`;
+          }
+          const isMourningDay = now.toDateString() === new Date(dayStr).toDateString();
+
+          if (isMourningDay) {
+            const style = document.createElement('style');
+            style.type = 'text/css';
+            style.innerHTML = `html {     -webkit-filter: grayscale(100%); /* webkit */     -moz-filter: grayscale(100%); /* firefox */     -ms-filter: grayscale(100%); /* ie9 */     -o-filter: grayscale(100%); /* opera */     filter: grayscale(100%);     filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1); filter:gray; /* ie9- */   }`;
+            document.head.appendChild(style);
+          }
+        });
+      })();
+    </script>
+  
 
 <!DOCTYPE html>
 <html lang="zh-CN" data-default-color-scheme=auto>
@@ -74,7 +96,37 @@
 
 
   
-<meta name="generator" content="Hexo 7.3.0"></head>
+<style type="text/css">
+.spoiler {
+  display: inline;
+}
+p.spoiler {
+  display: flex;
+}
+.spoiler a {
+  pointer-events: none;
+}
+.spoiler-blur, .spoiler-blur > * {
+  transition: text-shadow .5s ease;
+}
+.spoiler .spoiler-blur, .spoiler .spoiler-blur > * {
+  color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+  text-shadow: 0 0 10px grey;
+  cursor: pointer;
+}
+.spoiler .spoiler-blur:hover, .spoiler .spoiler-blur:hover > * {
+  text-shadow: 0 0 5px grey;
+}
+.spoiler-box, .spoiler-box > * {
+  transition: color .5s ease,
+  background-color .5s ease;
+}
+.spoiler .spoiler-box, .spoiler .spoiler-box > * {
+  color: black;
+  background-color: black;
+  text-shadow: none;
+}</style><meta name="generator" content="Hexo 7.3.0"></head>
 
 
 <body>
@@ -120,6 +172,18 @@
               <a class="nav-link" href="/archives/" target="_self">
                 <i class="iconfont icon-archive-fill"></i>
                 <span>归档</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/" target="_self">
+                <i class="iconfont icon-category-fill"></i>
+                <span>分类</span>
               </a>
             </li>
           

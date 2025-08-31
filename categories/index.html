@@ -1,4 +1,26 @@
 
+    <script type="text/javascript">
+      (function () {
+        const now = new Date();
+        const days = ["04-04"];
+
+        days.forEach(day => {
+          let dayStr = day.replace(/-/g, '/');
+          if (!/^\d{4}\/\d{1,2}\/\d{1,2}$/.test(dayStr)) {
+            dayStr = `${now.getFullYear()}/${dayStr}`;
+          }
+          const isMourningDay = now.toDateString() === new Date(dayStr).toDateString();
+
+          if (isMourningDay) {
+            const style = document.createElement('style');
+            style.type = 'text/css';
+            style.innerHTML = `html {     -webkit-filter: grayscale(100%); /* webkit */     -moz-filter: grayscale(100%); /* firefox */     -ms-filter: grayscale(100%); /* ie9 */     -o-filter: grayscale(100%); /* opera */     filter: grayscale(100%);     filter:progid:DXImageTransform.Microsoft.BasicImage(grayscale=1); filter:gray; /* ie9- */   }`;
+            document.head.appendChild(style);
+          }
+        });
+      })();
+    </script>
+  
 
 <!DOCTYPE html>
 <html lang="zh-CN" data-default-color-scheme=auto>
@@ -74,7 +96,37 @@
 
 
   
-<meta name="generator" content="Hexo 7.3.0"></head>
+<style type="text/css">
+.spoiler {
+  display: inline;
+}
+p.spoiler {
+  display: flex;
+}
+.spoiler a {
+  pointer-events: none;
+}
+.spoiler-blur, .spoiler-blur > * {
+  transition: text-shadow .5s ease;
+}
+.spoiler .spoiler-blur, .spoiler .spoiler-blur > * {
+  color: rgba(0, 0, 0, 0);
+  background-color: rgba(0, 0, 0, 0);
+  text-shadow: 0 0 10px grey;
+  cursor: pointer;
+}
+.spoiler .spoiler-blur:hover, .spoiler .spoiler-blur:hover > * {
+  text-shadow: 0 0 5px grey;
+}
+.spoiler-box, .spoiler-box > * {
+  transition: color .5s ease,
+  background-color .5s ease;
+}
+.spoiler .spoiler-box, .spoiler .spoiler-box > * {
+  color: black;
+  background-color: black;
+  text-shadow: none;
+}</style><meta name="generator" content="Hexo 7.3.0"></head>
 
 
 <body>
@@ -120,6 +172,18 @@
               <a class="nav-link" href="/archives/" target="_self">
                 <i class="iconfont icon-archive-fill"></i>
                 <span>归档</span>
+              </a>
+            </li>
+          
+        
+          
+          
+          
+          
+            <li class="nav-item">
+              <a class="nav-link" href="/categories/" target="_self">
+                <i class="iconfont icon-category-fill"></i>
+                <span>分类</span>
               </a>
             </li>
           
@@ -234,6 +298,150 @@
 
 <div class="category-list">
   
+  
+    
+    
+    
+    <div class="category row nomargin-x">
+      <a class="category-item collapsed
+          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="实验室"
+        id="heading-c53cfe836ea7ba07f308a714a33d4e34" role="tab" data-toggle="collapse" href="#collapse-c53cfe836ea7ba07f308a714a33d4e34"
+        aria-expanded="false"
+      >
+        实验室
+        <span class="list-group-count"></span>
+        <i class="iconfont icon-arrowright"></i>
+      </a>
+      
+        <a href="/categories/%E5%AE%9E%E9%AA%8C%E5%AE%A4/" class="category-count col-2 col-md-1 col-xm-1">
+          <i class="iconfont icon-articles"></i>
+          <span>3</span>
+        </a>
+      
+      <div class="category-collapse collapse " id="collapse-c53cfe836ea7ba07f308a714a33d4e34"
+           role="tabpanel" aria-labelledby="heading-c53cfe836ea7ba07f308a714a33d4e34">
+        
+        
+          
+  <div class="category-post-list">
+    
+    
+      
+      
+        <a href="/2025/08/25/hexo%E5%8D%9A%E5%AE%A2%E9%85%8D%E7%BD%AE%E4%B8%8A%E6%89%8B/" title="hexo博客配置上手"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">hexo博客配置上手</span>
+        </a>
+      
+    
+      
+      
+        <a href="/2025/08/25/%E6%B5%8B%E8%AF%95%E5%AF%86%E7%A0%81/" title="福利这一块（其实是文章密码测试）"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">福利这一块（其实是文章密码测试）</span>
+        </a>
+      
+    
+      
+      
+        <a href="/2025/07/28/blog/" title="如何有一个hexo博客"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">如何有一个hexo博客</span>
+        </a>
+      
+    
+  </div>
+
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div class="category row nomargin-x">
+      <a class="category-item collapsed
+          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="术力口"
+        id="heading-4f56a5048611a71f616af6b078d26319" role="tab" data-toggle="collapse" href="#collapse-4f56a5048611a71f616af6b078d26319"
+        aria-expanded="false"
+      >
+        术力口
+        <span class="list-group-count"></span>
+        <i class="iconfont icon-arrowright"></i>
+      </a>
+      
+        <a href="/categories/%E6%9C%AF%E5%8A%9B%E5%8F%A3/" class="category-count col-2 col-md-1 col-xm-1">
+          <i class="iconfont icon-articles"></i>
+          <span>1</span>
+        </a>
+      
+      <div class="category-collapse collapse " id="collapse-4f56a5048611a71f616af6b078d26319"
+           role="tabpanel" aria-labelledby="heading-4f56a5048611a71f616af6b078d26319">
+        
+        
+          
+  <div class="category-post-list">
+    
+    
+      
+      
+        <a href="/2025/08/31/%E3%83%9E%E3%82%A8%E3%82%AC%E3%83%9F%E3%82%B9%E3%83%88/" title="マエガミスト"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">マエガミスト</span>
+        </a>
+      
+    
+  </div>
+
+        
+      </div>
+    </div>
+  
+    
+    
+    
+    <div class="category row nomargin-x">
+      <a class="category-item collapsed
+          list-group-item category-item-action col-10 col-md-11 col-xm-11" title="工程"
+        id="heading-22c8a6a71ea550de5b68e0f79512c65c" role="tab" data-toggle="collapse" href="#collapse-22c8a6a71ea550de5b68e0f79512c65c"
+        aria-expanded="false"
+      >
+        工程
+        <span class="list-group-count"></span>
+        <i class="iconfont icon-arrowright"></i>
+      </a>
+      
+        <a href="/categories/%E5%B7%A5%E7%A8%8B/" class="category-count col-2 col-md-1 col-xm-1">
+          <i class="iconfont icon-articles"></i>
+          <span>1</span>
+        </a>
+      
+      <div class="category-collapse collapse " id="collapse-22c8a6a71ea550de5b68e0f79512c65c"
+           role="tabpanel" aria-labelledby="heading-22c8a6a71ea550de5b68e0f79512c65c">
+        
+        
+          
+  <div class="category-post-list">
+    
+    
+      
+      
+        <a href="/2025/08/30/%E6%B8%B2%E6%9F%93%E6%9B%B4%E6%96%B0%E9%82%A3%E4%BA%9B%E4%BA%8B/" title="渲染更新那些事"
+           class="list-group-item list-group-item-action
+           ">
+          <span class="category-post">渲染更新那些事</span>
+        </a>
+      
+    
+  </div>
+
+        
+      </div>
+    </div>
   
 </div>
 
